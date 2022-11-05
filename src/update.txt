@@ -1,0 +1,5 @@
+await updateDoc(doc(db, "Patients", d.id), {
+        // ...d,
+        // unixTime: moment().unix(),
+        isDeleted: false,
+      });
